@@ -5,7 +5,7 @@
 #include "monty.h"
 
 /**
- * _add - adds the first two nodes of the stack
+ * _add -  adds the first two nodes of the stack
  * @stack: stack given by main
  * @line_cnt: line counter
  *
@@ -13,7 +13,7 @@
  */
 void _add(stack_t **stack, unsigned int line_cnt)
 {
-	int results;
+	int result;
 
 	if (!stack || !*stack || !((*stack)->next))
 	{
@@ -21,6 +21,7 @@ void _add(stack_t **stack, unsigned int line_cnt)
 		exit(EXIT_FAILURE);
 	}
 
-	result = ((*stack)->next->n) + ((*stack)->);
-	pop(stack, line_cnt); /*for top node*/
+	result = ((*stack)->next->n) + ((*stack)->n);
+	pop(stack, line_cnt); /*For top node*/
 	(*stack)->n = result;
+}
