@@ -4,9 +4,9 @@
 #include "monty.h"
 
 /**
- * print - print the value at the top of the stack
+ * pint - print the value at the top of the stack
  * @stack: stack given by main in start.c
- * @kine_cnt: amount of lines
+ * @line_cnt: amount of lines
  *
  * Return: void
  */
